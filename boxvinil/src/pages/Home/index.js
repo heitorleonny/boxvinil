@@ -9,7 +9,7 @@ function Home(){
         <>
         <Container>
     
-        <img src={Logo}></img>
+        <img src={Logo}alt="Logo do BoxVinil"></img>
 
         <Links>
             <a>Home</a>
@@ -34,19 +34,19 @@ function Home(){
         <hr></hr>
 
         <div>
-            <img src={Beatles}></img>
+            <img src={Beatles} alt="Imagem da capa do disco dos Beatles"></img>
             <h4>Beatles</h4>
             <button>Comprar</button>
         </div>
         <hr></hr>
         <div>
-            <img src={Elvis}></img>
+            <img src={Elvis} alt="Imagem da capa do disco do Elvis Presley"></img>
             <h4>Elvis Presley</h4>
             <button>Comprar</button>
         </div>
         <hr></hr>
         <div>
-            <img src={Bob}></img>
+            <img src={Bob} alt="Imagem da capa do disco do Bob Marley"></img>
             <h4>Bob Marley</h4>
             <button>Comprar</button>
         </div>
